@@ -1,0 +1,22 @@
+# Binaries
+decode-secret-message
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace
+go.work
+go.work.sum
+
+# Dependency / build cache (local)
+vendor/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
